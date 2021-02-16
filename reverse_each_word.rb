@@ -1,5 +1,5 @@
 
-#string_argument="Hello there, and how are you?"
+string_argument="Hello there, and how are you?"
 
 # def reverse_each_word(string_argument)
 #   new_string=[]
@@ -12,6 +12,6 @@
 
 def reverse_each_word(string_argument)
   x=string_argument.split
-  x.collect{ |element| element.reverse}
-  x.join(" ")
+  [x.collect{ |element| p element.reverse}].join(" ")
+
   end
