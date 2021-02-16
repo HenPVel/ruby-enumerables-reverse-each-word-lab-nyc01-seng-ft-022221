@@ -7,4 +7,4 @@ def reverse_each_word(string_argument)
   x.each{ |element| p element.reverse}
   end
 
-reverse_each_word(string_argument)
+p reverse_each_word(string_argument)
