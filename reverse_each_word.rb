@@ -5,6 +5,7 @@ def reverse_each_word(string_argument)
   new_string=[]
   x=string_argument.split
   x.each{ |element| new_string<<element.reverse}
+  p new_string
   end
 
 p reverse_each_word(string_argument)
